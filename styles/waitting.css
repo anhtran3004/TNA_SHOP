@@ -1,0 +1,51 @@
+
+.load{
+    position: relative; 
+    top: 250px;
+    left: 185px;
+   
+}
+.message p{
+    font-size: 21px;
+    text-align: center;
+    position: relative;
+    top: 490px;
+    font-weight: 400;
+    font-family: Lexend, serif;
+}
+.xx{
+    position: relative;
+    left: 90px;
+    font-size: 20px;
+}
+.phone{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+
+}
+.e160{
+    position: absolute;
+    margin: auto;
+  border: 5px solid #eaf0f600;
+  border-radius: 50%;
+  border-top: 5px solid #FF7A59;
+  border-left: 5px solid #FF7A59;
+  border-bottom: 5px solid #FF7A59;
+  width: 200px;
+  height: 200px;
+  animation: spinner 4s linear infinite;
+}
+@keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @media screen and (max-width: 576px){
+    .message p{
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        top: 490px;
+        font-weight: 600;
+    }
+  }

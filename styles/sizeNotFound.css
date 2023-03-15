@@ -1,0 +1,176 @@
+.icon_sad{
+    font-size: 30px;
+    margin-top:70px ;
+}
+.continue{
+    text-align: center;
+    
+    background-color: rgb(227 123 115);
+    color: white;
+    margin: 0 75px ;
+    padding: 15px 0;
+    /* border-radius: 5px; */
+    font-size: 18px;
+    
+    cursor: pointer;
+    font-weight: 400;
+    font-family: Lexend, serif;
+    /* margin-top: 99px; */
+    margin-top: 102px;
+}
+.continuet{
+    text-align: center;
+    
+    background-color: rgb(227 123 115);
+    color: white;
+    margin: 0 75px ;
+    padding: 15px 0;
+    /* border-radius: 5px; */
+    font-size: 18px;
+    margin-top: 102px;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: Lexend, serif;
+    margin-top: 210px;
+}
+.continues{
+    text-align: center;
+    
+    background-color: rgb(227 123 115);
+    color: white;
+    margin: 0 75px ;
+    padding: 15px 0;
+    /* border-radius: 5px; */
+    font-size: 18px;
+    margin-top: 91px;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: Lexend, serif;
+}
+.continuese{
+    text-align: center;
+    
+    background-color: rgb(227 123 115);
+    color: white;
+    margin: 0 75px ;
+    padding: 15px 0;
+    /* border-radius: 5px; */
+    font-size: 18px;
+    margin-top: 117px;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: Lexend, serif;
+}
+.bundle_text{
+    /* max-width: 1006px; */
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+.size{
+    /* text-align: center; */
+    font-size: 80px;
+    margin-bottom: 0;
+    font-family: Lexend, serif;
+    position: relative;
+    top: 8px;
+    left: 20px;
+}
+.see_me{
+    width: 205px;
+    font-size: 18px;
+    background-color: rgb(227 123 115);
+    text-align: center;
+    /* margin: 0 180px;
+    position: relative;
+    top: 40px;
+    left: -100px; */
+    padding: 15px 0;
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: Lexend, serif;
+}
+#sizeComplete{
+    text-align: center;
+    font-size: 80px;
+    font-size: Lexend,serif;
+}
+.my_size{
+    width: 205px;
+    font-size: 18px;
+    color: rgb(227 123 115);
+    border: solid 2px rgb(227 123 115);
+    background-color: white;
+    text-align:  center;
+    /* margin: 0 180px;
+    position: relative;
+    left: 100px;
+    top: -17px; */
+    padding: 13px 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: Lexend, serif;
+}
+.img_pose{
+    position: relative;
+    left: 50px;
+    width: 322px;
+    height: 393px;
+}
+
+@media screen and (max-width: 576px) {
+    /* .modal-overlay-form{
+        display: none;
+    } */
+    .modal-body-form{
+        width: 400px;
+        /* width: 100%; */
+        height: 1015px;
+    }
+    .modal-body-forme{
+        /* width: 400px; */
+        width: 100%;
+        height: 900px;
+    }
+    .continuese{
+        margin-top: 120px;
+      }
+    .see_me{
+        width: 150px;
+        font-size: 18px;
+        padding: 10px 0;
+        color: white;
+        cursor: pointer;
+    }
+    .my_size{
+        width: 150px;
+        background-color: white;
+        padding: 8px 0;
+        cursor: pointer;
+        
+    }
+    .infor{
+        /* margin-left: -85px; */
+        margin-top: -60px;
+        margin-bottom: 20px;
+    }
+    .infors{
+        /* margin-left: -85px; */
+        /* margin-top: -57px; */
+        margin-bottom: 20px;
+    }
+    .continue{
+        margin-top: 100px;
+    }
+    .continuet{
+        margin-top: 100px;
+    }
+    .continues{
+        margin-top: 140px;
+        
+    }
+}

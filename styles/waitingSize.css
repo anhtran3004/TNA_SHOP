@@ -1,0 +1,142 @@
+.xe i{
+    font-size: 18px;
+}
+.xe{
+    position: relative;
+    left: 534px;
+    top: 12px;
+    /* z-index: 1;
+    position: relative;
+    top: -70px;
+    left: 534px;
+    color: black;
+    font-size: 18px; */
+    cursor: pointer;
+}
+.loading{
+    z-index: 100;
+    position: relative;
+    /* left: 185px; */
+    top: 167px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+.e160{
+    position: absolute;
+    top: 2px;
+    margin: auto;
+  border: 5px solid #eaf0f600;
+  border-radius: 50%;
+  border-top: 5px solid #FF7A59;
+  border-left: 5px solid #FF7A59;
+  border-bottom: 5px solid #FF7A59;
+  width: 200px;
+  height: 200px;
+  animation: spinner 4s linear infinite;
+}
+.e160s{
+    position: absolute;
+    top: 83px;
+    margin: auto;
+  border: 5px solid #eaf0f600;
+  border-radius: 50%;
+  border-top: 5px solid #FF7A59;
+  border-left: 5px solid #FF7A59;
+  border-bottom: 5px solid #FF7A59;
+  width: 200px;
+  height: 200px;
+  animation: spinner 4s linear infinite;
+}
+@keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/* .lk{
+    animation: dash 1.5s ease-in-out infinite;
+} */
+.ques{
+    position: relative;
+    top: 140px;
+    left: 80px;
+}
+.ao{
+    position: relative;
+    top:132px;
+    right: 30px;
+    /* right: 38px; */
+}
+.quan{
+    position: absolute;
+    top: 182px;
+    /* left: 84px; */
+}
+.message_waiting{
+    position: relative;
+    top: 440px;
+   /* left: 140px; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.modal-waitting-size{
+    /* text-align: center; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+  }
+  .modal-overlay-waitting-size{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.74);
+  }
+  .modal-body-waitting-size{
+    width: 416px;
+    height:750px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+   
+  }
+  @media screen and (max-width: 576px) {
+    /* .modal-overlay-form{
+        display: none;
+    } */
+    .e160s{
+        position: absolute;
+        top: 0px;
+        
+    }
+    .ques{
+        position: relative;
+        top: 52px;
+        left: 70px;
+    }
+    .ao{
+        position: relative;
+        top:45px;
+        right: 38px;
+    }
+    .quan{
+        position: absolute;
+        top: 92px;
+        /* left: 84px; */
+    }
+    .message_waiting{
+        position: relative;
+        top: 350px;
+        
+        
+    }
+    /* .loading{
+        left: 100px;
+    } */
+}

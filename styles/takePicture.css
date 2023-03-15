@@ -1,0 +1,194 @@
+.frame_picture {
+    border-top: solid 4px red;
+    border-left: solid 4px red;
+    border-right: solid 4px red;
+    width: calc(100% - 120px);
+    height: calc(100% - 150px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.frame_pictures {
+    border-top: solid 4px green;
+    border-left: solid 4px green;
+    border-right: solid 4px green;
+    width: calc(100% - 120px);
+    height: calc(100% - 150px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+.frame_pictures::after {
+    content: "";
+    background-color: green;
+    height: 4px;
+    width: calc(40%);;
+    position: absolute;
+    /* top: 200px; */
+    /* left: 200px; */
+    top: calc(100% - 4px);
+    z-index: 2;
+}
+.frame_pictures::before {
+    content: "";
+    background-color: green;
+    height: 4px;
+    width: calc(40%);
+    position: absolute;
+    /* top: 200px; */
+    /* left: 200px; */
+    top: calc(100% - 4px);
+    right: 0;
+    z-index: 2;
+}
+.frame_picture::after {
+    content: "";
+    background-color: red;
+    height: 4px;
+    width: calc(40%);;
+    position: absolute;
+    /* top: 200px; */
+    /* left: 200px; */
+    top: calc(100% - 4px);
+    z-index: 2;
+}
+.frame_picture::before {
+    content: "";
+    background-color: red;
+    height: 4px;
+    width: calc(40%);
+    position: absolute;
+    /* top: 200px; */
+    /* left: 200px; */
+    top: calc(100% - 4px);
+    right: 0;
+    z-index: 2;
+}
+
+#webcam2 {
+    /* width: 100%;
+    height: 100%; */
+    width: calc(100%);
+    height: calc(100%);
+}
+
+.logo_instruct {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-right: 40px;
+    /* position: absolute; */
+    /* top: 10vh; */
+    /* margin: auto; */
+
+}
+
+.text_instructs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.take_photos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    justify-content: center;
+    z-index: 2;
+}
+.take_photose{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    justify-content: center;
+    z-index: 3;
+}
+.ys {
+    position: absolute;
+    top: 0;
+    left: 28px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.xs {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lk {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.step_par_ts {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+
+.closes {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.rotate_cams {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+@media screen and (max-width: 550px){
+    .frame_pictures::after {
+        width: calc(30%);;
+        
+    }
+    .frame_pictures::before {
+        width: calc(30%);
+        
+    }
+    .frame_picture::after {
+        width: calc(30%);;
+        
+    }
+    .frame_picture::before {
+        width: calc(30%);
+        
+    }
+}
+@media screen and (max-width: 400px){
+    .text_instructs {
+        display: flex;
+        justify-content: center;
+        margin-top: 12vh;
+    }
+}

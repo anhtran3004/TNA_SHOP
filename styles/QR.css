@@ -1,0 +1,98 @@
+.qr_code{
+    width: 140px;
+    height: 140px;
+    /* position: relative;
+    left: 105px; */
+    margin: auto;
+}
+.link_qr{
+    font-size: 18px;
+    color: rgb(227,123,115);
+    text-decoration: underline;
+    text-align: center;
+    cursor: pointer;
+}
+.ins{
+    font-size: 24px;
+    font-family: Lexend;
+    font-weight: bold;
+    padding-top: 65px;
+    margin-bottom: 35px;
+}
+.modal-form-QR{
+    /* text-align: center; */
+    /* position: fixed; */
+    position: absolute;
+    top: -70px;
+    right: 0;
+    bottom: 0;
+    left:-100px;
+    /* width: 100%;
+    height: 1500px; */
+  }
+  .modal-overlay-form-QR{
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    height: 1400px;
+    background-color: rgba(128, 128, 128, 0.74);
+    
+  }
+  .modal-body-form-QR{
+    width: 570px;
+    /* height: 857px; */
+    height: 857px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    z-index: 1;
+  }
+  @media screen and (max-width: 576px){
+    /* .modal-overlay-form-QR{
+        height: 100%;
+      }
+      .modal-body-form-QR{
+        height: 700px; 
+       
+      }
+      .modal-form-QR{
+        position: fixed;
+        background-color: white;
+        
+        overflow-y: scroll;
+        
+        width: 995px;
+      } */
+    #see{
+        width: 150px;
+    font-size: 18px;
+    margin: 0 161px;
+    position: relative;
+    top: 50px;
+    left: 22px;
+    padding: 10px 0;
+    left: -23px;
+    cursor: pointer;
+    }
+    #mySize{
+        width: 150px;
+    background-color: white;
+    text-align: center;
+    margin: 0 100px;
+    position: relative;
+    left: 188px;
+    top: 3px;
+    padding: 8px 0;
+    cursor: pointer;
+    }
+    #iconImg{
+        position: relative;
+        left: 292px;
+        top: 80px;
+    }
+    #continue{
+        margin: 0px 147px;
+    }
+  }
